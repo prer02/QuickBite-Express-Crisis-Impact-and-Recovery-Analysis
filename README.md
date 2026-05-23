@@ -357,13 +357,12 @@ Reactivating existing customers at ~₹50 is **3× more cost-effective** than ac
 
 | Metric | Pre-Crisis | Crisis | Change | % Change |
 |--------|-----------|--------|--------|----------|
-| Monthly Orders | **24,000** | **9,000** | **-15,000** | **−62.5%** |
-| Monthly Revenue | **₹[XX]M avg** | **₹[XX]M avg** | **−₹[XX]M** | **−[XX]%** |
-| Total Revenue (period) | **₹[XX]M** | **₹[XX]M** | **−₹[XX]M** | **−[XX]%** |
-| Active Customers | **[XX,XXX]** | **[XX,XXX]** | **−[XX,XXX]** | **−[XX]%** |
-| Avg Rating | **[X.XX] ⭐** | **[X.XX] ⭐** | **−[X.XX]** | **−[XX]%** |
+| Total Orders | **24,000** | **9,000** | **-15,000** | **−62.5%** |
+| Total Revenue (period) | **₹37.62M** | **₹10.94M** | **−₹[XX]M** | **−[XX]%** |
+| Active Customers | **83K** | **29K** | **54K** | **65%** |
+| Avg Rating | **4.5 ⭐** | **2.3⭐** | **−[X.XX]** | **−[XX]%** |
 | SLA Compliance | **[XX]%** | **[XX]%** | **−[XX]%** | **−[XX]%** |
-| Avg Delivery Time | **[XX] min** | **[XX] min** | **+[XX] min** | **+[XX]%** |
+| Avg Delivery Time | **39.5 min** | **60.1 min** | **20.6 min** | **52.1%** |
 | Cancellation Rate | **[X.X]%** | **[XX.X]%** | **+[X.X]%** | **+[XX]%** |
 
 ### Root Causes
