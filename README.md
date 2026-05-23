@@ -1,6 +1,7 @@
 # 🍽️ Restaurant Crisis — Recovery Analysis & Strategic Roadmap
 
-> In **June 2025**, a Bengaluru-based food delivery platform watched its business collapse in less than 90 days. This repository contains my complete Power BI analysis of **what went wrong, who walked away, and how the data points to recovery**.
+> In **June 2025**, a Bengaluru-based food delivery platform watched its business collapse in less than 90 days. This repository contains my complete Power BI analysis of **what went wrong, who walked away.
+> 
 
 A comprehensive, data-driven diagnosis of a food-delivery startup's crisis — and an evidence-based turnaround strategy.
 
@@ -52,11 +53,6 @@ A Bengaluru-based food-delivery startup faced a critical crisis starting **June 
 - ⭐ **Average rating collapsed** from **4.6 → 2.3 stars**
 - 🏪 **[XX]% restaurant partner exodus**, with cloud kitchens worst hit
 - 🛵 **SLA compliance fell** from **43.6% → 12.20%**
-
-**Key Discovery:** Despite the severity, a meaningful share of churned customers are **recoverable** — they left due to **operational failure, not dissatisfaction with the product**.
-
-**Strategic Output:** A data-driven **₹[XX]M recovery roadmap** built on **4 strategic pillars**, projected to recover **[XX]–[XX]% of pre-crisis metrics within 6–9 months**, with **[X]–[X]× ROI** on reactivation.
-
 ---
 
 ## 💼 Problem Statement
@@ -86,18 +82,6 @@ The business required a comprehensive analysis of its **June–December 2025 cri
 8. Revenue impact quantification (subtotal vs delivery fee vs discount)
 9. Loyalty impact on customers with 5+ orders and 4.5+ ratings
 10. High-value (top 5%) customer decline patterns
-
-**Secondary Analysis (5 questions + extras):**
-
-11. Competitor comparison (Swiggy, Zomato performance during the crisis)
-12. External factors contributing to a ~3× CAC increase
-13. Most effective recovery strategies (industry benchmarking)
-14. Restaurant-type churn risk (cloud kitchen vs dine-in)
-15. Lapsed-customer return probability modeling
-16. Priority-city risk analysis
-17. Customer order-value shift behavior (premium → budget)
-18. Review-volume spike correlation with the delivery outage
-
 ---
 
 ## 📊 Dataset Description
@@ -187,38 +171,6 @@ Decline % = (Pre-Crisis Value − Crisis Value) / Pre-Crisis Value × 100
 
 Applied to orders, revenue, ratings, cancellations, and SLA compliance.
 
-#### C. Customer Segmentation (Recovery Probability)
-**Purpose:** Identify recoverable customers, not just count lost ones.
-
-**High return probability (~60% return chance):**
-```
-IF (Pre-Crisis Orders ≥ 5)
-   AND (Pre-Crisis Avg Rating ≥ 4.5)
-   AND (Crisis Orders = 0)
-THEN "High Return — Recoverable"
-```
-- Sample size: **[XX,XXX] customers**
-- Rationale: Loyal customers lost due to **failure, not dissatisfaction**
-
-**Medium return probability (~40% return chance):**
-```
-IF (Pre-Crisis Orders = 3-4)
-   AND (Pre-Crisis Avg Rating ≥ 3.5)
-   AND (Crisis Orders = 0)
-THEN "Medium Return — Price Sensitive"
-```
-- Sample size: **[XX,XXX] customers**
-- Rationale: Mixed experience, cost-conscious — winnable with incentives
-
-**Low return probability (~15% return chance):**
-```
-IF (Pre-Crisis Orders ≤ 2)
-   AND (Pre-Crisis Avg Rating < 3.5)
-THEN "Low Return — Low Priority"
-```
-- Sample size: **[XX,XXX] customers**
-- Rationale: Never engaged fully — low ROI to chase
-
 #### D. Revenue Impact Analysis
 **Purpose:** Quantify financial loss across revenue components.
 
@@ -254,100 +206,6 @@ Total Revenue = Subtotal Amount + Delivery Fee − Discounts Applied
 - Clustering by issue category (food quality, delivery delay, packaging, hygiene)
 - Crisis-vs-pre-crisis comparison surfaces what changed
 
-### 2. Customer Acquisition Cost (CAC) Analysis
-
-```
-CAC = Total Marketing Spend / Number of New Customers Acquired
-```
-
-- Pre-crisis CAC estimate: **₹50 per customer**
-- Crisis CAC estimate: **₹150 per customer**
-- **Increase: ~300%**
-
-**Contributing factors (external, research-backed):**
-
-| Factor | Impact on CAC | Source |
-|--------|---------------|--------|
-| 18% GST on delivery (effective Sept 22, 2025) | +₹20 | Business Standard |
-| Google Ads CPC +42% (competitive bidding) | +₹25 | Market data |
-| Monsoon seasonality (−15–20% organic demand) | +₹15 | Industry reports |
-| Brand-reputation damage | +₹40 | Calculated from conversion-rate drop |
-| **Total increase** | **+₹100 (300%)** | — |
-
-**Strategic implication:**
-Reactivating existing customers at ~₹50 is **3× more cost-effective** than acquiring new ones at ₹150 during the crisis. **Reactivation > acquisition** is the central financial argument of the recovery plan.
-
-### 3. Recovery Strategy — ROI Modeling
-
-#### 🎯 Pillar 1 — Customer Reactivation
-- **Target:** **[XX,XXX] high-probability customers**
-- **Incentive:** 40% off + 3 months premium membership
-- **Expected reactivation:** 60% (industry benchmark)
-- **Customers recovered:** **[XX,XXX]**
-- **Avg LTV:** ₹8,500
-- **Revenue recovered:** ₹[XX] Cr
-- **Investment:** ₹20–25M
-- **ROI:** 3–4× within 12 months
-
-#### 🛡️ Pillar 2 — Food Safety Certifications
-- **Investment:** ₹15–20M (FSSAI / HACCP audits, badges, promotion)
-- **Expected trust uplift:** 35–40%
-- **Timeline:** 2–3 months to certification
-- **Permanent benefit:** Ongoing compliance + customer confidence
-
-#### ⚙️ Pillar 3 — Operational Excellence
-
-| Component | Investment |
-|-----------|------------|
-| Weather-adaptive routing | ₹8–10M |
-| Fleet expansion | ₹12–15M |
-| SLA monitoring systems | ₹5–7M |
-| **Total** | **₹25–30M** |
-
-- **Expected SLA improvement:** **[XX]% → 40%+**
-- **Cancellation reduction:** **[XX]% → < 7%**
-- **Timeline:** 6 months
-
-#### 🏪 Pillar 4 — Restaurant Partner Support
-- 5–10% commission reduction for 6 months on restaurants with <50 orders/month
-- Featured listings and co-marketing campaigns
-- Working-capital support for small cloud kitchens
-- **Expected retention:** 85% (vs. current **[XX]%**)
-- **Investment:** ₹10–15M
-
-#### 📈 Total Recovery Roadmap
-
-| Item | Value |
-|------|-------|
-| Total investment | **₹70–80M** |
-| Timeline | **6–9 months** |
-| Expected recovery | **80–90% of pre-crisis metrics** |
-| Cumulative ROI | **2.5–3×** on total investment |
-
-### 4. Competitive Benchmarking
-
-**Methodology:**
-- Reviewed public financial reports and news articles
-- Tracked market-share and revenue-growth trends
-- Researched competitor strategies during the crisis window
-- Validated findings against industry research
-
-**Zomato (Jun–Dec 2025):**
-- Market share: **58%** (up from 56%)
-- Revenue growth: **+67% YoY**
-- Status: Profitable, expanding aggressively
-- Strategy: Captured market share from struggling competitors
-
-**Swiggy (Jun–Dec 2025):**
-- Market share: **42%** (maintained)
-- App installs: **+20–25%** during crisis
-- Revenue growth: **+35% YoY**
-- Strategy: Capitalized on the operational failures of weaker players
-
-**Impact on the business analyzed here:**
-- App ranking: **#3 → #8**
-- **15–25% of lost customers** captured by Swiggy / Zomato
-- Market consolidation favored larger, more stable platforms
 
 ---
 
@@ -375,26 +233,8 @@ Reactivating existing customers at ~₹50 is **3× more cost-effective** than ac
 **Secondary (Reputational):**
 - Viral food-safety incident damaged trust permanently
 - Negative-review sentiment dominant by September
-- Top complaint themes (from word cloud): **food quality, safety/hygiene, packaging, delivery delay**
-
-**Tertiary (Competitive):**
-- Swiggy / Zomato captured **15–25%** of lost customers
-- Aggressive competitor campaigns during the most vulnerable window
-- Market consolidation favored larger players
-
-**External (Market):**
-- 18% GST on delivery (effective Sept 22, 2025)
-- Google Ads CPC up **+42%** during the same period
-- Monsoon seasonality dragged organic demand down **15–20%**
-
-### Recovery Opportunity
-
-- **High-priority recoverable base:** **[XX,XXX] customers** (60% return probability)
-- **Revenue at risk from top 5% segment alone:** ₹[XX] Cr annually
-- **Geographic concentration:** Bengaluru and Mumbai together account for the bulk of the decline
-- **Order frequency recovery potential:** **[X.X] → [X.X]+ orders/month**
-
-> **Key insight:** Customers didn't leave because their *preferences* shifted — they left because *service* failed. That is reversible through targeted reactivation + operational fixes.
+- Top complaint themes (from word cloud): **food quality, safety/hygiene, packaging, delivery delay*
+*
 
 ---
 
@@ -564,84 +404,6 @@ COUNTROWS(
 
 ---
 
-## 📚 Sources & References
-
-### External Research (Secondary Analysis)
-
-**1. Competitor Market Share**
-- Inc42 — *Food Delivery War: Zomato Extends Lead Over Swiggy With 58% Market Share* (Nov 2024)
-  https://inc42.com/buzz/food-delivery-war-zomato-extends-lead-over-swiggy-with-58-market-share/
-- Business Standard — *Zomato zooms past Swiggy in terms of growth in July* (Aug 2024)
-  https://www.business-standard.com/companies/news/zomato-zooms-past-swiggy-in-terms-of-growth-in-july-captures-more-market-124082000895_1.html
-
-**2. GST Implementation Impact**
-- Business Standard — *Food delivery may get pricier as platforms hike fees, 18% GST adds burden* (Sept 2025)
-  https://www.business-standard.com/economy/news/food-delivery-may-get-pricier-as-platforms-hike-fees-18-gst-adds-burden-125090700239_1.html
-- Deccan Herald — *Online food delivery charges to rise when new GST rules take effect*
-  https://www.deccanherald.com/business/economy/online-food-delivery-charges-to-rise-when-new-gst-rules-take-effect-3713486
-
-**3. Food Safety Certification Standards**
-- QACS Global Solutions — *HACCP Certification in India: A 2025 Food Safety Guide* (Jun 2025)
-  https://qacsglobalsolutions.com/haccp-certification-india-2025/
-- Restaurant India — *Sustainable Restaurant Practices That Attract More Customers in 2025*
-  https://www.restaurantindia.in/article/sustainable-restaurant-practices-that-attract-more-customers-in-2025.13308
-
-**4. Cloud Kitchen Market Analysis**
-- BBFT — *The Rise and Fall of Cloud Kitchens in India* (Sep 2024)
-  https://www.bbft.in/2024/09/24/the-rise-and-fall-of-cloud-kitchens-in-india-a-business-perspective/
-- Restaurant India — *How Cloud Kitchens Are Transforming India's Food Delivery Revolution*
-  https://www.restaurantindia.in/article/how-cloud-kitchens-are-transforming-india-s-food-delivery-revolution.12960
-
-### Methodology References
-
-**Statistical Analysis:**
-- Churn modeling — Standard RFM (Recency, Frequency, Monetary) segmentation
-- Risk scoring — Weighted composite-score methodology
-- ROI calculation — Standard financial modeling with industry benchmarks
-- Probability assessment — Based on industry research and comparable cases
-
-**Data Analysis Best Practices:**
-- Comparative analysis — Pre/post-crisis methodology
-- Customer segmentation — Behavioral and financial clustering
-- Sentiment analysis — Text-frequency analysis correlated with ratings
-- Benchmark validation — Against industry peers and research reports
-
----
-
-## 🔍 How to Explore
-
-### Option A — Open the Report Locally
-1. **Install Power BI Desktop** (free): https://powerbi.microsoft.com/desktop/
-2. **Clone this repo** or download `restaurant_crisis.pbix` directly
-3. **Open the file** in Power BI Desktop
-4. Start at the **🏠 Home** page and use the navigation buttons / page navigator to move between sections
-
-### Option B — Browse Screenshots
-If you don't have Power BI Desktop installed, the `/screenshots/` folder contains a visual walkthrough of every page.
-
-### Suggested Reading Order
-
-> **Home → Executive Summary → Customer Analysis → Restaurant → Delivery & Operations → Rating & Sentiments → Top 5% Customers**
-
-This follows the natural narrative arc:
-*what happened → who left → which partners are at risk → were operations to blame → what did customers say → how much of our most valuable segment is at risk.*
-
-### Deep-Dive Routes
-
-| If you care about… | Go to |
-|---------------------|-------|
-| **Customer impact** | Pages 3 (Customer Analysis) + 7 (Top 5%) |
-| **Operational diagnosis** | Page 5 (Delivery & Operations) |
-| **Voice of customer** | Page 6 (Rating & Sentiments) |
-| **Partner-side risk** | Page 4 (Restaurant) |
-| **Executive view** | Page 2 (Executive Summary) |
-
-### Filtering Tips
-- The **`Crisis type`** slicer (Pre-crisis / Crisis) is the most powerful filter — toggle it to see either window in isolation
-- **City** and **Month** slicers cross-filter every visual on the page
-- The Word Cloud on Page 6 updates with slicer selections — try filtering it to crisis months only
-
----
 
 ## 📊 Key Metrics Summary
 
@@ -663,31 +425,6 @@ This follows the natural narrative arc:
 | **Operations** | SLA pre | **[XX]%** | Adequate |
 | | SLA crisis | **[XX]%** | Failure |
 | | Delivery time | **[XX] → [XX] min** | **+[XX]%** increase |
-| **Recovery** | Investment | **₹70–80M** | Total budget |
-| | Timeline | **6–9 months** | Expected duration |
-| | Expected recovery | **80–90%** | Success target |
-| | ROI | **3–4×** | Return on investment |
-
----
-
-## ❓ FAQ
-
-**Q: How was customer churn calculated?**
-A: A churned customer is anyone who placed **1+ orders in the pre-crisis window (Jan–May 2025)** but **ZERO orders in the crisis window (Jun–Dec 2025)**. The DAX logic is shown in the *Technical Implementation* section above.
-
-**Q: Why are only ~30% of churned customers considered "recoverable"?**
-A: Only customers with **≥5 pre-crisis orders AND ≥4.5 pre-crisis avg rating** qualify as high-return. These customers demonstrated real loyalty and left due to *failure*, not preference. The rest had weaker engagement or were already dissatisfied — so the cost to win them back exceeds their expected lifetime value.
-
-**Q: How reliable is the ROI projection?**
-A: Based on the industry-benchmark **60% reactivation rate** for food-delivery crisis recovery campaigns. Conservative estimate — actual could be higher with strong execution and the right offer mix.
-
-**Q: What external data was used?**
-A: Competitor financial reports, industry research, market analyses, GST documentation, and peer-company case studies. All cited in the *Sources & References* section.
-
-**Q: Can this framework be reused?**
-A: Yes. The methodology (phase comparison + recovery-probability segmentation + revenue decomposition + ROI pillars) transfers cleanly to other food-delivery, e-commerce, or subscription-business crisis scenarios. The DAX patterns are reusable as-is on similar data models.
-
----
 
 ## 👤 Author
 
