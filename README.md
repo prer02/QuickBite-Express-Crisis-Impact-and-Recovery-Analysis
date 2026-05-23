@@ -143,13 +143,13 @@ The business required a comprehensive analysis of its **June–December 2025 cri
 | Total Customers | All unique customers | **105K** |
 | Active Customers(Pre-crisis) | ≥1 order Jan–May 2025 | **100K** |
 | Active Customers(Crisis) | ≥1 order Jun–Dec 2025 | **29K** |
-| **Churned** | Orders pre-crisis, **ZERO** orders crisis | **[XX,XXX]** |
-| New | First order in Jun–Dec 2025 | **[XX,XXX]** |
-| Retained | Orders in both periods | **[XX,XXX]** |
+| **Churned** | Orders pre-crisis, **ZERO** orders crisis | **70K** |
+| New | First order in Jun–Dec 2025 | **17K** |
+| Retained | Orders in both periods | **12K** |
 
 **Order Metrics:**
 - Pre-crisis orders: **114K orders**
-- Crisis monthly average: **35K orders/month**
+- Crisis monthly average: **35K orders**
 - Decline: **69.29%**
 
 **Revenue Metrics:**
@@ -647,9 +647,9 @@ This follows the natural narrative arc:
 
 | Category | Metric | Value | Context |
 |----------|--------|-------|---------|
-| **Orders** | Pre-crisis monthly | **[XX,XXX]** | Baseline |
-| | Crisis monthly | **[XX,XXX]** | Collapsed period |
-| | Decline % | **[XX]%** | Severity indicator |
+| **Orders** | Pre-crisis monthly | **114K** | Baseline |
+| | Crisis monthly | **35K** | Collapsed period |
+| | Decline % | **-69.2%** | Severity indicator |
 | **Revenue** | Pre-crisis total | **₹[XX]M** | 5-month period |
 | | Crisis total | **₹[XX]M** | 7-month period |
 | | Loss | **₹[XX]M** | Absolute impact |
