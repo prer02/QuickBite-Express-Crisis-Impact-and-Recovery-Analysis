@@ -243,9 +243,9 @@ Total Revenue = Subtotal Amount + Delivery Fee − Discounts Applied
 ### 🚀 Immediate Actions (Month 1)
 
 1. **VIP Reactivation Campaign**
-   - Target: **[XX,XXX] high-return customers** (≥5 pre-crisis orders, 0 crisis orders)
+   - Target: ** high-return customers** (≥5 pre-crisis orders, 0 crisis orders)
    - Offer: 40% off + 3 months premium
-   - Expected: **[XX,XXX] returns → ₹[XX] Cr recovery**
+
 
 2. **Food Safety Certification Push**
    - FSSAI + HACCP audits for all partners
@@ -412,19 +412,18 @@ COUNTROWS(
 | **Orders** | Pre-crisis monthly | **114K** | Baseline |
 | | Crisis monthly | **35K** | Collapsed period |
 | | Decline % | **-69.2%** | Severity indicator |
-| **Revenue** | Pre-crisis total | **₹[XX]M** | 5-month period |
-| | Crisis total | **₹[XX]M** | 7-month period |
+| **Revenue** | Pre-crisis total | **₹37.62M** | 5-month period |
+| | Crisis total | **₹10.94M** | 7-month period |
 | | Loss | **₹[XX]M** | Absolute impact |
-| **Customers** | Pre-crisis active | **[XX,XXX]** | Loyal base |
-| | Crisis active | **[XX,XXX]** | Dramatic drop |
-| | Churned | **[XX,XXX]** | Lost customers |
-| | Recoverable | **[XX,XXX] ([XX]%)** | High-priority reactivation |
-| **Ratings** | Pre-crisis | **[X.XX] ⭐** | Strong satisfaction |
-| | Crisis | **[X.XX] ⭐** | Critical deterioration |
-| | Drop | **[X.XX]** | Trust collapse |
-| **Operations** | SLA pre | **[XX]%** | Adequate |
-| | SLA crisis | **[XX]%** | Failure |
-| | Delivery time | **[XX] → [XX] min** | **+[XX]%** increase |
+| **Customers** | Pre-crisis active | **83K** | Loyal base |
+| | Crisis active | **29K** | Dramatic drop |
+| | Churned | **70K** | Lost customers |
+| **Ratings** | Pre-crisis | **4.5 ⭐** | Strong satisfaction |
+| | Crisis | **2.3 ⭐** | Critical deterioration |
+| | Drop | **2.2** | Trust collapse |
+| **Operations** | SLA pre | **43.6** | Adequate |
+| | SLA crisis | **12.20%** | Failure |
+| | Delivery time | **39 → 60 min** | **35%** increase |
 
 ## 👤 Author
 
