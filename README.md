@@ -400,7 +400,7 @@ COUNTROWS(
 | | Decline % | **-69.2%** | Severity indicator |
 | **Revenue** | Pre-crisis total | **₹37.62M** | 5-month period |
 | | Crisis total | **₹10.94M** | 7-month period |
-| | Loss | **₹[XX]M** | Absolute impact |
+| | Loss | **₹26.68M** | Absolute impact |
 | **Customers** | Pre-crisis active | **83K** | Loyal base |
 | | Crisis active | **29K** | Dramatic drop |
 | | Churned | **70K** | Lost customers |
@@ -414,10 +414,8 @@ COUNTROWS(
 ## 👤 Author
 
 **Prerna Gautam**
-- 💼 LinkedIn: [your-linkedin-url]
 - 📧 Email: gautamprerna02@gmail.com
-- 🐙 GitHub: [@your-handle]
-- 📊 Live Power BI Report: [your-published-link]
+- 📊 Live Power BI Report:(Click here)[https://app.powerbi.com/links/QZWCQocovf?ctid=3d571b57-bc68-4a84-8dca-37627724762c&pbi_source=linkShare]
 
 > ⭐ If this project was useful, consider starring the repository.
 
