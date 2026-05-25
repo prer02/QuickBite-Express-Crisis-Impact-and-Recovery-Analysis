@@ -1,6 +1,6 @@
 # 🍽️ Restaurant Crisis — Recovery Analysis & Strategic Roadmap
 
-> In **June 2025**, a Bengaluru-based food delivery platform watched its business collapse in less than 90 days. This repository contains my complete Power BI analysis of **what went wrong, who walked away.
+> In **June 2025**, a Bengaluru-based food delivery platform watched its business collapse in less than 90 days. This repository contains my complete Power BI analysis of what went wrong.
 > 
 
 A comprehensive, data-driven diagnosis of a food-delivery startup's crisis — and an evidence-based turnaround strategy.
