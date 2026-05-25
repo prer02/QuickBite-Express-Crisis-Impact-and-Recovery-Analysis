@@ -415,7 +415,7 @@ COUNTROWS(
 
 **Prerna Gautam**
 - 📧 Email: gautamprerna02@gmail.com
-- 📊 Live Power BI Report:(Click here)[https://app.powerbi.com/links/QZWCQocovf?ctid=3d571b57-bc68-4a84-8dca-37627724762c&pbi_source=linkShare]
+- 📊 Live Power BI Report:[https://app.powerbi.com/links/QZWCQocovf?ctid=3d571b57-bc68-4a84-8dca-37627724762c&pbi_source=linkShare]
 
 > ⭐ If this project was useful, consider starring the repository.
 
