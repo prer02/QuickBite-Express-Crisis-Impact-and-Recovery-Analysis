@@ -51,7 +51,6 @@ A Bengaluru-based food-delivery startup faced a critical crisis starting **June 
 - 🚨 **70K customers churned** — roughly **70%** of the active base
 - 💰 **₹26.68M revenue lost** across the crisis window
 - ⭐ **Average rating collapsed** from **4.6 → 2.3 stars**
-- 🏪 **[XX]% restaurant partner exodus**, with cloud kitchens worst hit
 - 🛵 **SLA compliance fell** from **43.6% → 12.20%**
 ---
 
@@ -209,24 +208,11 @@ Total Revenue = Subtotal Amount + Delivery Fee − Discounts Applied
 
 ---
 
-## 📈 Key Findings
-
-### Crisis Impact Summary
-
-| Metric | Pre-Crisis | Crisis | Change | % Change |
-|--------|-----------|--------|--------|----------|
-| Total Orders | **24,000** | **9,000** | **-15,000** | **−62.5%** |
-| Total Revenue (period) | **₹37.62M** | **₹10.94M** | **−₹[XX]M** | **−[XX]%** |
-| Active Customers | **83K** | **29K** | **54K** | **65%** |
-| Avg Rating | **4.5 ⭐** | **2.3⭐** | **−[X.XX]** | **−[XX]%** |
-| SLA Compliance | **[XX]%** | **[XX]%** | **−[XX]%** | **−[XX]%** |
-| Avg Delivery Time | **39.5 min** | **60.1 min** | **20.6 min** | **52.1%** |
-| Cancellation Rate | **[X.X]%** | **[XX.X]%** | **+[X.X]%** | **+[XX]%** |
 
 ### Root Causes
 
 **Primary (Operational):**
-- SLA compliance collapsed from **[XX]% → [XX]%**
+- SLA compliance collapsed from **43.6% → 12.2%**
 - Delivery infrastructure failed during the monsoon
 - Cancellation cascade fed directly into negative review sentiment
 
